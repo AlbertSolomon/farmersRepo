@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisteringFarmer">
+
+    <EditText
+        android:id="@+id/NameOfFarmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:fontFamily="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/choose_image"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/choose_image"
+        app:layout_constraintTop_toBottomOf="@+id/choose_image" />
+
+    <EditText
+        android:id="@+id/contactOfFarmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="+2658888888"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/NameOfFarmer"
+        app:layout_constraintStart_toStartOf="@+id/NameOfFarmer"
+        app:layout_constraintTop_toBottomOf="@+id/NameOfFarmer" />
+
+    <EditText
+        android:id="@+id/residentAreaOfFarmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:text=""
+        android:fontFamily="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/AddressOfFarmer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/AddressOfFarmer"
+        app:layout_constraintTop_toBottomOf="@+id/AddressOfFarmer" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Register"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/residentAreaOfFarmer"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="@+id/residentAreaOfFarmer"
+        app:layout_constraintTop_toBottomOf="@+id/residentAreaOfFarmer" />
+
+    <EditText
+        android:id="@+id/AddressOfFarmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:text=""
+        android:fontFamily="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/contactOfFarmer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/contactOfFarmer"
+        app:layout_constraintTop_toBottomOf="@+id/contactOfFarmer" />
+
+    <ImageView
+        android:id="@+id/farmerProfilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/choose_image"
+        android:layout_width="382dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="36dp"
+        android:text="Choose image"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/farmerProfilePic"
+        app:layout_constraintStart_toStartOf="@+id/farmerProfilePic"
+        app:layout_constraintTop_toBottomOf="@+id/farmerProfilePic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

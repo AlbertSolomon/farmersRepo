@@ -1,0 +1,2 @@
+rootProject.name = "FarmersConnect"
+include ':app'

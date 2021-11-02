@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977061321562",
+    "project_id": "farmers-connect-50df4",
+    "storage_bucket": "farmers-connect-50df4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977061321562:android:cbf15bbd43b18f71ef7163",
+        "android_client_info": {
+          "package_name": "farmersconnect.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977061321562-nu5p6i74odtf5g1ohg5dbu63eqmnv8q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACU5dgrSOAY2asReCeI2mIszaTUuJFB0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977061321562-nu5p6i74odtf5g1ohg5dbu63eqmnv8q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
